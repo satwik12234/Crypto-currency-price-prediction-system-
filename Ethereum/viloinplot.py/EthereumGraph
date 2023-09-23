@@ -1,0 +1,6 @@
+close1 = data['Close (ETH)']
+data = pd.DataFrame({'Date': 'Date', 'Close (ETH)': close1})
+
+axis = data.plot(x='Date', y='Close (ETH)')
+axis.set_xlabel("Date")
+axis.set_ylabel("Close Price")
